@@ -23,8 +23,8 @@ export default {
   inject: ['api', 'errHandler'],
   data() {
         return {
-          email: 'kulanov@mail.ru',
-          password: '123123123123',
+          email: null,
+          password: null,
           responseLogin: null
         }
     },
